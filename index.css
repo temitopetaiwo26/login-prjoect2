@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color: black;
+    background-image: linear-gradient(to right,#00d0ff,#b614a5);
+
+
+}
+
+.contact_form{
+    width: 350px;
+    padding: 30px;
+    height: 600px;
+    margin: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+form input{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 40px;
+    margin: 20px;
+    margin-left: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    }
+
+    form button{
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 60px;
+        width: 80%;
+        border: none;
+        margin-left: 20px;
+        background-image: linear-gradient(to right,#00d0ff,#b614a5);
+        margin-top: 20px;
+    }
+
+.social-icons{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 20px;
+}
+/* .social-icons a{
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+} */
+.container{
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 550px;
+    margin-bottom: 250px;
+}    
+
+.contact_form h2{
+    text-align: center;
+}
+.text h4{
+    text-align: center;
+    margin-top: 40px;
+}
+.account h5{
+    text-align: center;
+    margin-top: 100px;
+}
+
+form label{
+    margin-left: 20px;
+}
+span a{
+    text-decoration: none;
+    margin-left: 150px;
+}
+.social-icons .fa-facebook-f{
+    background-color: #1551A1;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+.social-icons .fa-twitter{
+    background-color:rgb(96, 96, 234);
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+.social-icons .fa-google{
+    background-color:red;
+    padding: 15px 15px;
+    border-radius: 50%;
+
+}
+
+    
